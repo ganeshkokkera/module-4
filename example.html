@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function read()
+            {
+                var text = document.getElementById("text1");
+                alert(text.options[text.selectedIndex].value);
+            }
+        </script>
+    </head>
+    <body>
+        <select  id="text1">
+            <option value="gani">Gani</option>
+            <option value="eswar">eswar</option>
+            <option value="akhil">akhil</option>
+            <option value="pavan">pavan</option>
+        </select>
+        <button id="btn" onclick="read()">click me</button>
+    </body>
+</html>  
