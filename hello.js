@@ -1,8 +1,9 @@
-(function(window){
-    var word = "hello";
-    var SpeakHello = function(name){
-        console.log(word+" "+name);
-    }
-    window.SpeakHello = SpeakHello;
+(function(window) {
+	var speakWord = "Hello";
+	var helloSpeaker = function (name) {
+		console.log(speakWord + " " + name);
+	}
 
-})(window)
+	window.helloSpeaker = helloSpeaker;
+
+})(window);
